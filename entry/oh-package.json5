@@ -6,7 +6,10 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "harlibrary": "file:../harlibrary"
+    //最好是引用打包好的har
+    //"harlibrary": "file:../harlibrary/build/default/outputs/default/harlibrary.har"
+    "harlibrary": "file:../entry/libs/harlibrary.har"
+    //"harlibrary": "file:../harlibrary"
   }
 }
 

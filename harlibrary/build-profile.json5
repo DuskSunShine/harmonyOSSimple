@@ -4,7 +4,8 @@
     "externalNativeOptions": {
       "path": "./src/main/cpp/CMakeLists.txt",
       "arguments": "",
-      "cppFlags": ""
+      "cppFlags": "",
+      "abiFilters": ["arm64-v8a","armeabi-v7a","x86_64"]//这里默认只有x86_64的，按需添加需要支持的架构
     },
   },
   "targets": [

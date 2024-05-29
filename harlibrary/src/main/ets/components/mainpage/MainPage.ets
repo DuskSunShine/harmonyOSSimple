@@ -1,6 +1,7 @@
 import hilog from '@ohos.hilog';
 import testNapi from 'libharlibrary.so'
 import promptAction from '@ohos.promptAction';
+@Entry
 @Component
 export struct MainPage {
   @State message: string = 'har lib的页面'
