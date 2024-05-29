@@ -1,4 +1,5 @@
 # HAR的使用坑点
+ [**官方HAR开发指导**](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/quick-start/har-package.md)
 
 1. 首先需要使用 *Make Module* 生成产物，包括打包好的.har包。
    路径为 **build/default/outputs/default/*.har**
