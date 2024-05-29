@@ -1,0 +1,12 @@
+{
+  "name": "harlibrary",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/libharlibrary.so": "file:./src/main/cpp/types/libharlibrary"
+  }
+}

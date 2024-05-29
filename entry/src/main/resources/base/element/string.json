@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "app壳入口module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "app入口ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "我是ability标签"
+    }
+  ]
+}
