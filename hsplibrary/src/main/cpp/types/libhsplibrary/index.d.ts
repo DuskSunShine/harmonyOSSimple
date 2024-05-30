@@ -1,0 +1,1 @@
+export const addHSPNapi: (a: number, b: number) => number;

@@ -27,5 +27,16 @@
       "name": "harlibrary",
       "srcPath": "./harlibrary"
     }
-  ]
+  ,{
+      "name": "hsplibrary",
+      "srcPath": "./hsplibrary",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }]
 }

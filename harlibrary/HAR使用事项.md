@@ -1,4 +1,4 @@
-# HAR的使用坑点
+# HAR的使用事项
  [**官方HAR开发指导**](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/quick-start/har-package.md)
 
 1. 首先需要使用 *Make Module* 生成产物，包括打包好的.har包。
@@ -52,7 +52,7 @@
    [命名路由](https://gitee.com/openharmony/docs/blob/master/zh-cn/application-dev/ui/arkts-routing.md#%E5%91%BD%E5%90%8D%E8%B7%AF%E7%94%B1)
    的方式进行跳转
    但是这个只在api10+以后支持。
-   尝试了使用如下方式没有作用，连报错都没有。
+   尝试了使用如下方式没有作用，连报错都没有。**这种方式只能在hsp中使用**
    ```typescript
     @bundle:包名（bundleName）/模块名（moduleName）/路径/页面所在的文件名(不加.ets后缀)'   
    ```

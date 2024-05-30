@@ -36,6 +36,9 @@ struct Index {
         Button("entry模块调用har的页面").onClick(()=>{
           router.pushUrl({url:"@bundle:com.hmos.simple/harlibrary/ets/components/mainpage/MainPage"})
         }).margin({top:20})
+        Button("测试hsp").onClick(()=>{
+          router.pushUrl({url:"pages/HspTestPage"})
+        }).margin({top:20})
       }
       .width('100%')
     }
