@@ -27,10 +27,22 @@
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home"
+              "action.system.home",
+              "ohos.want.action.home"
             ]
           }
+        ],
+        "metadata": [
+          {
+            "name": "ohos.ability.shortcuts",
+            "value": "$profile:shortcuts_config"
+          }
         ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
       }
     ]
   }

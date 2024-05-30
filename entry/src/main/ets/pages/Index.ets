@@ -10,6 +10,9 @@ struct Index {
   build() {
     Row() {
       Column() {
+        Button("arkUi arkTs学习").onClick(()=>{
+            router.pushUrl({url:"pages/ArkPage"})
+        })
         //应用har页面
         MainPage()
         Text(this.message)

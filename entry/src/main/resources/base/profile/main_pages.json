@@ -1,7 +1,7 @@
 {
   "src": [
-    "pages/Index"
-  ,
-    "pages/HspTestPage"
+    "pages/Index",
+    "pages/HspTestPage",
+    "pages/ArkPage"
   ]
 }

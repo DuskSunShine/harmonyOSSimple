@@ -26,8 +26,8 @@
     {
       "name": "harlibrary",
       "srcPath": "./harlibrary"
-    }
-  ,{
+    },
+    {
       "name": "hsplibrary",
       "srcPath": "./hsplibrary",
       "targets": [
@@ -38,5 +38,18 @@
           ]
         }
       ]
-    }]
+    },
+    {
+      "name": "login",
+      "srcPath": "./features/login",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
 }
